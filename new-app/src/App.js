@@ -1,10 +1,11 @@
-import Users from "./components/Users";
+import RickAll from "./components/RickAll";
+
 
 
 function App() {
   return (
-    <div><h1>Hellov</h1>
-      <Users />
+    <div><h1>Rick and Morty</h1>
+      <RickAll />
     </div>
   );
 }
