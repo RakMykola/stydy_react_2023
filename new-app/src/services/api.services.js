@@ -3,18 +3,15 @@ import axios from "axios"
 
 
 let axiosInstance = axios.create({
-    baseURL: 'https://jsonplaceholder.typicode.com'
+    baseURL: 'https://api.spacexdata.com/'
 })
 
 
 
 const getUsersAxios = () => {
-    return axiosInstance.get()
-}
-
-const getUsersPosts = () => {
-    return axiosInstance.get('/posts')
+    return axiosInstance.get('v3/launches')
 }
 
 
-export { getUsersAxios, getUsersPosts }
+
+export { getUsersAxios }

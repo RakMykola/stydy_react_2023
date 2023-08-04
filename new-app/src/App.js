@@ -1,11 +1,12 @@
-import PostAll from "./components/PostAll";
+
+import LaunchAll from "./components/launchAll";
 
 
 
 function App() {
   return (
     <div><h1>Hello</h1>
-      <PostAll />
+      <LaunchAll />
     </div>
   );
 }
